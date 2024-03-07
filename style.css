@@ -1309,7 +1309,7 @@ body.offcanvas {
     outline: none;
     border-bottom: none !important; }
   .colorlib-nav-toggle i {
-    position: relative;
+    position: fixed;
     display: -moz-inline-stack;
     display: inline-block;
     zoom: 1;
@@ -1335,7 +1335,7 @@ body.offcanvas {
       -o-transition: 0.2s;
       transition: 0.2s; }
   .colorlib-nav-toggle.dark i {
-    position: relative;
+    position: fixed;
     color: #000;
     background: #000;
     -webkit-transition: all .2s ease-out;
